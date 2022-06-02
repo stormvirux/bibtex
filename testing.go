@@ -1,8 +1,8 @@
 package bibtex
 
 import (
-	"github.com/jschaf/bibtex/ast"
-	"github.com/jschaf/bibtex/asts"
+	"github.com/stormvirux/bibtex/ast"
+	"github.com/stormvirux/bibtex/asts"
 )
 
 // newAuthor creates a new author using the number of strings to infer
