@@ -2,9 +2,9 @@ package bibtex
 
 import (
 	"fmt"
-	"github.com/jschaf/bibtex/ast"
-	"github.com/jschaf/bibtex/parser"
-	"github.com/jschaf/bibtex/render"
+	"github.com/stormvirux/bibtex/ast"
+	"github.com/stormvirux/bibtex/parser"
+	"github.com/stormvirux/bibtex/render"
 	gotok "go/token"
 	"io"
 )

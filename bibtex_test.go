@@ -2,8 +2,8 @@ package bibtex
 
 import (
 	"github.com/google/go-cmp/cmp"
-	"github.com/jschaf/bibtex/ast"
-	"github.com/jschaf/bibtex/asts"
+	"github.com/stormvirux/bibtex/ast"
+	"github.com/stormvirux/bibtex/asts"
 	"strings"
 	"testing"
 )

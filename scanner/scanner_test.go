@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jschaf/bibtex/token"
+	"github.com/stormvirux/bibtex/token"
 )
 
 type tokClass int

@@ -5,7 +5,7 @@ package ast
 import (
 	gotok "go/token"
 
-	"github.com/jschaf/bibtex/token"
+	"github.com/stormvirux/bibtex/token"
 )
 
 type Node interface {

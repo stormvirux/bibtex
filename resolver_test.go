@@ -1,11 +1,11 @@
 package bibtex
 
 import (
-	"github.com/jschaf/bibtex/asts"
+	"github.com/stormvirux/bibtex/asts"
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/jschaf/bibtex/ast"
+	"github.com/stormvirux/bibtex/ast"
 )
 
 func TestSimplifyEscapedTextResolver(t *testing.T) {

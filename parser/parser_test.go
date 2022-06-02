@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/jschaf/bibtex/ast"
-	"github.com/jschaf/bibtex/asts"
-	"github.com/jschaf/bibtex/token"
+	"github.com/stormvirux/bibtex/ast"
+	"github.com/stormvirux/bibtex/asts"
+	"github.com/stormvirux/bibtex/token"
 )
 
 func cmpExpr() cmp.Option {

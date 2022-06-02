@@ -2,7 +2,7 @@ package render
 
 import (
 	"fmt"
-	"github.com/jschaf/bibtex/ast"
+	"github.com/stormvirux/bibtex/ast"
 	"io"
 )
 
@@ -91,7 +91,7 @@ func renderParsedText(w io.Writer, n ast.Node, entering bool) (ast.WalkStatus, e
 	return ast.WalkContinue, nil
 }
 func renderText(w io.Writer, n ast.Node, entering bool) (ast.WalkStatus, error) {
-	txt := n.(*ast.TextSpace)
+	txt := n.(*ast.Text)
 	if _, err := w.Write([]byte(txt.Value)); err != nil {
 		return ast.WalkStop, fmt.Errorf("default renderText: %w", err)
 	}

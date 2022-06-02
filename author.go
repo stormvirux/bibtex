@@ -2,7 +2,7 @@ package bibtex
 
 import (
 	"fmt"
-	"github.com/jschaf/bibtex/ast"
+	"github.com/stormvirux/bibtex/ast"
 	"strings"
 	"unicode"
 	"unicode/utf8"
