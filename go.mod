@@ -1,4 +1,4 @@
-module github.com/jschaf/bibtex
+module github.com/stormvirux/bibtex
 
 go 1.13
 
